@@ -9,14 +9,14 @@ This is the main screen that appears when the app is launched. The only role of 
 ## Feed
 When the app is launched, the faker library is used to create fake posts and users for demo. A list of 20 fake posts is generated and displayed in the feed screen. I also created a widget for displaying the post info and the user who shared the post.
 
-<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/home.png?token=GHSAT0AAAAAABZHVRGRSYLQK2YUNG25QHYEY3J4KHQ" height=500>
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/home.png?raw=true" height=500>
 
 ## Create Post
 This one is a little more advance than mentioned in your description. Create Post screen fetches a random image from the internet and asks the user to enter a caption for the post. As soon as the user taps the share button, the post is added to a list displayed on the very same page.
 
-<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/create-post.png?token=GHSAT0AAAAAABZHVRGRH4JDYGKOP7DTGBSIY3J4LTQ" height=500>
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/create-post.png?raw=true" height=500>
 
 ## Profile Screen
 Once again I used the faker library to generate fake info for a user to display in this screen. A fake posts list is generated as a list for posts shared by the user.
 
-<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/profile.png?token=GHSAT0AAAAAABZHVRGQG35A3SYG3N7UNAXSY3J4MCQ" height=500>
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/profile.png?raw=true" height=500>
