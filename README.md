@@ -1,16 +1,19 @@
-# globesisters_test
+# GlobeSisters Flutter Test
 
-A new Flutter project.
+Hi,
+As per your description, I have created three screens
 
-## Getting Started
+## Home
+This is the main screen that appears when the app is launched. The only role of this screen is to display a tab bar and the screens in each tab.
 
-This project is a starting point for a Flutter application.
+## Feed
+When the app is launched, the faker library is used to create fake posts and users for demo. A list of 20 fake posts is generated and displayed in the feed screen. I also created a widget for displaying the post info and the user who shared the post
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/home.png?token=GHSAT0AAAAAABZHVRGRSYLQK2YUNG25QHYEY3J4KHQ" height=500>
 
-A few resources to get you started if this is your first Flutter project:
+## Create Post
+This one is a little more advance than mentioned in your description. Create Post screen fetches a random image from the internet and asks the user to enter a caption for the post. As soon as the user taps the share button, the post is added to a list displayed on the very same page.
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/create-post.png?token=GHSAT0AAAAAABZHVRGRH4JDYGKOP7DTGBSIY3J4LTQ" height=500>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Profile Screen
+Once again I used the faker library to generate fake info for a user to display in this screen. A fake posts list is generated as a list for posts shared by the user.
+<image src="https://raw.githubusercontent.com/rehmatsg/globesisters_test/main/screenshots/profile.png?token=GHSAT0AAAAAABZHVRGQG35A3SYG3N7UNAXSY3J4MCQ" height=500>
